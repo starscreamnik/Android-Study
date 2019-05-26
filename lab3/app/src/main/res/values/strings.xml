@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">lab3</string>
+	<string name="enter_name">Enter your name</string>
+	<string name="button">Take a photo</string>
+	<string name="input_notice">Input your name</string>
+	<string name="create_notice">Failed to create file</string>
+</resources>

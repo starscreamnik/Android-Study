@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">lab3</string>
+	<string name="enter_name">Введите своё имя</string>
+	<string name="button">Сделать фото</string>
+	<string name="input_notice">Заполните поле своим именем</string>
+	<string name="create_notice">Не удалось создать файл</string>
+</resources>
