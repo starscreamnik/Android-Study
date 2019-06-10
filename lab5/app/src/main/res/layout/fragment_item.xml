@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal">
+
+    <TextView
+            android:layout_height="match_parent"
+            android:id="@+id/date"
+            android:layout_weight="2"
+            style="@style/TextViewStyle"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginEnd="5dp"
+            tools:text = "12.01.1999"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+
+    <TextView
+            android:layout_height="match_parent"
+            android:id="@+id/temperature"
+            android:layout_weight="1"
+            style="@style/TextViewStyle"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            tools:text="+25"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+
+    <TextView
+            android:id="@+id/feel"
+            android:layout_weight="2"
+            tools:text="Ощущается как то так"
+            style="@style/TextViewStyle"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+</LinearLayout>
